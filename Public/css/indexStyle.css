@@ -11,7 +11,7 @@ body{
     background-position: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 35px 25px;
+    padding: 20px 20px;
 }
 
 .container{
@@ -76,7 +76,7 @@ body{
 }
 
 h1 {
-    color: rgba(255, 255, 255, 71);
+    color: #424242;
     font-family: 'Comfortaa', cursive;
     font-weight: 50;
     font-size: 5em;
@@ -86,10 +86,8 @@ h2 {
     color: rgba(255, 255, 255, 71);
     font-family: 'Comfortaa', cursive;
     font-weight: 25;
-    font-size: 1em;
+    font-size: 0.7em;
     position: relative;
-    left: -100px;
-    top: -50px;
 }
 
 h3{
@@ -107,4 +105,28 @@ h3{
 
 p {
     font-family: 'Comfortaa', cursive;
+    color: #424242;
+}
+
+/*about me */
+.intro{
+    width: 60%;
+    margin:0 auto; 
+    padding: 10px 0px;
+}
+
+.socialmedia{
+    font-family: 'Comfortaa', cursive;
+    color: rgba(66, 66, 66, 64);
+    font-weight: 10;
+    width: 90%;
+    margin:0 auto; 
+    overflow:auto; 
+    _display:inline-block;
+    padding: 20px;
+}
+.socialmedia img{
+    width: 2.5%;
+    height: 2.5%;
+    padding: 10px;
 }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="446px" height="192px" viewBox="0 0 446 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>title - up coming</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6555FF" stop-opacity="0.625424592" offset="0%"></stop>
+            <stop stop-color="#C86DD7" stop-opacity="0.05" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2---mysite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mysite-v3---cn" transform="translate(-1278.000000, -766.000000)">
+            <g id="title---up-coming" transform="translate(1278.000000, 766.000000)">
+                <rect id="Rectangle-Copy" stroke="url(#linearGradient-1)" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="444" height="190" rx="95"></rect>
+                <g id="title" transform="translate(184.000000, 62.000000)" fill="#424242" font-family="PingFangSC-Light, PingFang SC" font-weight="300" letter-spacing="0.5">
+                    <text id="计划" font-size="30">
+                        <tspan x="6" y="32">计划</tspan>
+                    </text>
+                    <text id="工作-&amp;-生活" font-size="14" fill-opacity="0.640143795">
+                        <tspan x="0" y="64">工作 </tspan>
+                        <tspan x="34.162" y="64" font-family="Comfortaa-Light, Comfortaa">&amp; </tspan>
+                        <tspan x="49.232" y="64">生活</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

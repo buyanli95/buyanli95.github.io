@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="446px" height="192px" viewBox="0 0 446 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>title - project</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFA6A6" offset="0%"></stop>
+            <stop stop-color="#FF6D6D" stop-opacity="0.05" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2---mysite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mysite-v3---cn" transform="translate(-196.000000, -766.000000)">
+            <g id="title---project" transform="translate(196.000000, 766.000000)">
+                <rect id="title-box" stroke="url(#linearGradient-1)" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="444" height="190" rx="95"></rect>
+                <g id="title" transform="translate(180.000000, 62.000000)" fill="#424242" font-family="PingFangSC-Light, PingFang SC" font-weight="300" letter-spacing="0.5">
+                    <text id="项目" font-size="30">
+                        <tspan x="11" y="32">项目</tspan>
+                    </text>
+                    <text id="代码-&amp;-设计" font-size="14" fill-opacity="0.640143795">
+                        <tspan x="0" y="64">代码 &amp; 设计</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
