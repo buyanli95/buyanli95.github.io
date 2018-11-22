@@ -143,13 +143,13 @@ p {
     _display:inline-block;
 }
 .project-sec .left {
-    width: 500px;
+    width: 450px;
     float: left;
 }
 
 .project-sec .right {
     margin-left: 50px;
-    width: 600px;
+    width: 500px;
     float: left;
     text-align: left;
 }
