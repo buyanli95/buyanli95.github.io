@@ -165,10 +165,25 @@ p {
     margin-left: 10px;
 }
 
+/*up coming*/
+.upcoming {
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+    padding: 30px;
+}
+.upcoming h1{
+    color: rgba(101,85,255,0.63);
+}
+.upcoming li {
+    font-size: 1.3em; 
+    padding: 25px;
+    color: rgba(66, 66, 66, 0.64);
+}
+
 /*socialmedia part*/
 .socialmedia{
     font-family: 'Comfortaa', cursive;
-    color: rgba(66, 66, 66, 64);
+    color: rgba(66, 66, 66, 0.64);
     font-weight: 10;
     width: 90%;
     margin:0 auto; 
