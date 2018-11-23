@@ -62,6 +62,7 @@ a{
     overflow:auto; 
     _display:inline-block;
     text-align: center;
+    padding: 2em;
 }
 .index #aboutme {
     width: 25%;
