@@ -11,75 +11,77 @@ body{
     background-position: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 20px 20px;
+    padding: 0.25em 0.25em;
 }
-
 .container{
     position: relative;
     text-align: center;
     background-color: #fafafa;
     padding: 10px 40px;
+    margin: 0 auto;
 }
-
 .topbar {
     width:100%; 
     overflow:auto;
     _display: inline-block;
 }
 a{
-    text-decoration: none;
-    color: rgba(66, 66, 66, 6);
+	text-decoration: none;
     color: #91B5F3;
 }
-
 .logo{
     position: relative;
     text-align: left;
     float: left;
 }
 .logo p{
-    color: rgba(66, 66, 66, 6);
+    color: rgba(66, 66, 66, 0.6);
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1em;
 }
-
 .language {
     float: right;
 }
-.language a {
-    color: rgba(66, 66, 66, 0.6);
+.language p{
+	font-size: 1em;
 }
-
+.language a {
+	color: rgba(66, 66, 66, 0.6);
+}
 .seperator{
     color: #979797;
+    position: relative;
+    top: -1em;
 }
 
 /*index section*/
 .index {
     width:90%; 
-    margin:150px auto; 
+    margin:0 auto; 
     overflow:auto; 
-    _display:inline-block;
     text-align: center;
-    padding: 30px;
+    padding-top: 2em;
+    padding-bottom: 7.5em;
 }
 .index #aboutme {
-    width: 25%;
-    height: 25%;
+    width: 75%;
+    height: 75%;
+    padding: 2em;
 }
 .index #indexcontent{
-    width: 12%;
-    height: 12%;
-    padding: 100px;
+    width: 40%;
+    height: 40%;
+    padding: 1em;
 }
 .index #aboutme-cn {
-    width: 28%;
-    height: 28%;
+    width: 75%;
+    height: 75%;
+    padding: 2em;
 }
 .index #indexcontent-cn{
-    width: 8%;
-    height: 8%;
-    padding: 100px;
+    width: 25%;
+    height: 25%;
+    padding: 1em;
 }
 .index img {
     cursor: pointer;
@@ -89,45 +91,12 @@ a{
     transform: scale(1.2);
 }
 
-/*fonts*/
-h1 {
-    color: #424242;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 50;
-    font-size: 5em;
-}
-
-h2 {
-    color: #424242;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 25;
-    font-size: 1.5em;
-    position: relative;
-}
-
-/*h3{
-    color: rgba(255, 255, 255, 71);
-    font-family: 'Comfortaa', cursive;
-    font-weight: 50;
-    text-transform: uppercase;
-    font-size: 3.5em;
-    letter-spacing: 10px;
-    
-    position: relative;
-    left: 105px;
-    top: -95px;
-}*/
-
-p {
-    font-family: 'Comfortaa', cursive;
-    color: #424242;
-}
-
 /*about me */
 .intro{
-    width: 60%;
+    width: 90%;
     margin:0 auto; 
-    padding: 10px 0px;
+    padding: 1em 0px;
+    font-size: 0.9em;
 }
 /*about me social media*/
 .socialmedia{
@@ -138,22 +107,20 @@ p {
     margin:0 auto; 
     overflow:auto; 
     _display:inline-block;
-    padding: 2em;
 }
 .socialmedia img{
-    width: 2.5%;
-    height: 2.5%;
+    width: 10%;
+    height: 10%;
     padding: 1em;
 }
 
 /*projects*/
 .projects {
-    padding: 10px;
-    margin-bottom: 50px;
+    padding: 0.5em;
 }
-
 .projects h1 {
     text-align: left;
+    color: #FFA6A6;
 }
 .projects h2 {
     text-align: left;
@@ -167,23 +134,21 @@ p {
 #subpara {
     font-size: 0.75em;
     color: rgba(66, 66, 66, 0.7); 
-    line-height: 0.5em;
+    line-height: 1em;
 }
 
 .project-sec {
-    width: 90%;
+    width: 100%;
     margin:0 auto; 
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     overflow:auto; 
-    _display:inline-block;
 }
 .project-sec .left {
-    width: 40%;
+    width: 100%;
     float: left;
 }
 .project-sec .right {
-    margin-left: 4em;
-    width: 50%;
+    width: 90%;
     float: left;
     text-align: left;
 }
@@ -206,18 +171,16 @@ p {
 }
 
 /*up coming*/
-
 .upcoming {
     text-align: left;
     font-family: 'Comfortaa', cursive;
-    padding: 3em;
+    margin-bottom: 28em;
 }
 .upcoming h1{
     color: rgba(101,85,255,0.63);
 }
 .upcoming li {
-    font-size: 1.3em; 
-    padding: 1em;
+    font-size: 1em; 
     color: rgba(66, 66, 66, 0.64);
+    padding: 1em;
 }
-
