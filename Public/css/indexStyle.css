@@ -38,9 +38,9 @@ a{
     float: left;
 }
 .logo p{
-    color: rgba(66, 66, 66, 6);
+    color: rgba(66, 66, 66, 0.6);
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 .language {
@@ -154,6 +154,7 @@ p {
 
 .projects h1 {
     text-align: left;
+    color: #FFA6A6;
 }
 .projects h2 {
     text-align: left;
