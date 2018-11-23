@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="461px" height="461px" viewBox="0 0 461 461" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>aboutme-circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFA6A6" offset="0%"></stop>
+            <stop stop-color="#FF6D6D" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#6555FF" stop-opacity="0.625424592" offset="0%"></stop>
+            <stop stop-color="#C86DD7" stop-opacity="0.05" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-3" cx="210" cy="210" r="210"></circle>
+        <filter x="-1.0%" y="-1.0%" width="103.8%" height="103.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0598675272 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2---mysite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mysite-v4" transform="translate(-719.000000, -310.000000)">
+            <g id="aboutme-circle" transform="translate(739.000000, 330.000000)">
+                <path d="M210.5,421 C326.75594,421 421,326.75594 421,210.5 C421,94.2440602 326.75594,0 210.5,0 C94.2440602,0 0,94.2440602 0,210.5 C0,326.75594 94.2440602,421 210.5,421 Z" id="projects-circle" stroke="url(#linearGradient-1)" stroke-width="40" stroke-linecap="round" stroke-dasharray="659,1318" fill-rule="nonzero" transform="translate(210.500000, 210.500000) scale(-1, 1) translate(-210.500000, -210.500000) "></path>
+                <path d="M210.5,421 C326.75594,421 421,326.75594 421,210.5 C421,94.2440602 326.75594,0 210.5,0 C94.2440602,0 0,94.2440602 0,210.5 C0,326.75594 94.2440602,421 210.5,421 Z" id="upcoming-circle" stroke="url(#linearGradient-2)" stroke-width="40" stroke-linecap="round" stroke-dasharray="659,1318" fill-rule="nonzero" transform="translate(210.500000, 210.500000) scale(1, -1) translate(-210.500000, -210.500000) "></path>
+                <g id="About-me-Copy">
+                    <g id="Oval-2" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="title" transform="translate(76.000000, 162.000000)" fill="#424242" letter-spacing="0.5">
+                        <g>
+                            <text id="About-me" font-family="Comfortaa-Bold, Comfortaa" font-size="48" font-weight="bold">
+                                <tspan x="9" y="53">About me</tspan>
+                            </text>
+                            <text id="from-developer-to-de" font-family="Comfortaa-Light, Comfortaa" font-size="18" font-weight="300" fill-opacity="0.640143795">
+                                <tspan x="0" y="92">from developer to designer</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
