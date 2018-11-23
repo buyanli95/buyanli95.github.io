@@ -130,9 +130,14 @@ p {
 }
 #subtitle {
     font-family: 'Comfortaa', cursive;
-    color: rgba(66, 66, 66, 35);
+    color: rgba(66, 66, 66, 0.7);
     font-size: 0.4em; 
     margin: 0 auto;
+}
+#subpara {
+    font-size: 0.75em;
+    color: rgba(66, 66, 66, 0.7); 
+    line-height: 0.5em;
 }
 
 .project-sec {
