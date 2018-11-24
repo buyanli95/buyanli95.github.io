@@ -23,7 +23,7 @@ body{
 }
 
 .topbar {
-    width:100%; 
+    max-width:100%; 
     overflow:auto;
     _display: inline-block;
 }
@@ -57,7 +57,7 @@ a{
 
 /*index section*/
 .index {
-    width:90%; 
+    max-width:90%; 
     margin:10em auto; 
     overflow:auto; 
     _display:inline-block;
@@ -65,21 +65,21 @@ a{
     padding: 2em;
 }
 .index #aboutme {
-    width: 25%;
-    height: 25%;
+    max-width: 25%;
+    max-height: 25%;
 }
 .index #indexcontent{
-    width: 15%;
-    height: 15%;
+    max-width: 15%;
+    max-height: 15%;
     padding: 2.5em;
 }
 .index #aboutme-cn {
-    width: 25%;
+    max-width: 25%;
     height: 25%;
 }
 .index #indexcontent-cn{
-    width: 7%;
-    height: 7%;
+    max-width: 7%;
+    max-height: 7%;
     padding: 3em;
 }
 .index img {
@@ -113,7 +113,7 @@ p {
 
 /*about me */
 .intro{
-    width: 80%;
+    max-width: 80%;
     margin:0 auto; 
     padding: 0.5em 0em;
 }
@@ -122,7 +122,7 @@ p {
     font-family: 'Comfortaa', cursive;
     color: rgba(66, 66, 66, 0.64);
     font-weight: 10;
-    width: 100%;
+    max-width: 100%;
     margin:0 auto; 
     overflow:auto; 
     _display:inline-block;
@@ -160,7 +160,7 @@ p {
 }
 
 .project-sec {
-    width: 100%;
+    max-width: 100%;
     margin:0 auto; 
     margin-bottom: 5em;
     overflow:auto; 
@@ -189,8 +189,8 @@ p {
     color: #5f5f5f;
 }
 .project-sec img {
-    width: 7.5%;
-    height: 7.5%;
+    max-width: 7.5%;
+    max-height: 7.5%;
     position: relative;
     top: 0.3em;
     margin-left: 1em;
