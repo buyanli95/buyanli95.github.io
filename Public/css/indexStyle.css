@@ -8,12 +8,11 @@ html{
 
 body{
     /*background-color: #f1f1f1;*/
-    background-image: url("img-background.svg");
+    /*background-image: url("img-background.svg");*/
     /*background-position: fixed;*/
-    background-size: 100% 100%;
+    background-size: 100% 120%;
     background-repeat: no-repeat;
     padding: 1em 1em;
-
 }
 
 .container{
@@ -42,7 +41,7 @@ a{
 .logo p{
     color: rgba(66, 66, 66, 0.6);
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .language {
@@ -65,9 +64,17 @@ a{
     text-align: center;
     padding: 30px;
 }
+#index-cn{
+    max-width:90%; 
+    margin:0 auto; 
+    overflow:auto; 
+    _display:inline-block;
+    text-align: center;
+    padding: 30px;
+}
 .index #aboutme {
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 35%;
+    max-height: 35%;
 }
 .index #indexcontent{
     max-width: 12%;
@@ -75,13 +82,15 @@ a{
     padding: 100px;
 }
 .index #aboutme-cn {
-    max-width: 28%;
-    height: 28%;
+    max-width: 20%;
+    height: 20%;
 }
 .index #indexcontent-cn{
+    position: relative;
+    top: -4em;
     max-width: 8%;
-    height: 8%;
-    padding: 100px;
+    height: 20%;
+    padding: 6em;
 }
 .index img {
     cursor: pointer;
@@ -107,23 +116,11 @@ h2 {
     position: relative;
 }
 
-/*h3{
-    color: rgba(255, 255, 255, 71);
-    font-family: 'Comfortaa', cursive;
-    font-weight: 50;
-    text-transform: uppercase;
-    font-size: 3.5em;
-    letter-spacing: 10px;
-    
-    position: relative;
-    left: 105px;
-    top: -95px;
-}*/
-
-p {
+p, li {
     font-family: 'Comfortaa', cursive;
     color: #424242;
 }
+
 
 /*about me */
 .intro{
@@ -174,9 +171,12 @@ p {
 }
 
 .project-sec {
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 5%;
     max-width: 90%;
     margin:0 auto; 
     margin-bottom: 5em;
+    padding: 4em;
     overflow:auto; 
     _display:inline-block;
 }
@@ -206,6 +206,15 @@ p {
     position: relative;
     top: 0.3em;
     margin-left: 0.75em;
+}
+
+/*vr read*/
+#vrread .left {
+    width: 40%;
+}
+
+#vrread .right {
+    width: 50%;
 }
 
 /*up coming*/
