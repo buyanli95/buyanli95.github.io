@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Buyan Li</title>
+	<title>李步妍</title>
 
 	<!-- responsive design -->
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 600px) and (max-device-width: 1024px)" href="../Public/css/indexStyle-midscreen.css" />
 	<style type="text/css">
 		body {
-			background-image: url("../Public/img/img-background.svg");
+			background-color: #f4f4f4;
 		}
 	</style>
 </head>
@@ -24,21 +24,64 @@
 			<div class="logo">
 				<a href="./index-cn.html"><p>李步妍</p></a>
 			</div>
-
-			<div class="language">
-				<p><a href="../index.html">EN</a> / <a href="./index-cn.html">中</a></p>
+			<!-- right top bar -->
+			<div class="rightBar">
+				<div class="project">
+					<p><a href="./index-cn.html" style="border-bottom: 0.1em solid rgba(66, 66, 66, 0.6);padding-bottom: 0.1em;">作品集</a></p>
+				</div>
+				<div class="about">
+					<p><a href="./aboutme-cn.html">关于我</a></p>
+				</div>
+				<!-- language selector -->
+				<div class="language">
+					<p><a href="../index.html">EN</a> / <a href="./index-cn.html">中</a></p>
+				</div>
 			</div>
 		</div>
 
-		<hr class="seperator 100%">
-
-		<!-- key content -->
-		<div class="index" id="index-cn">
-				<!-- introduction -->
-				<a href="./projects-cn.html"><img src="../Public/img/title-projects-cn2.svg" alt="Projects" id="indexcontent-cn"></a>
-				<a href="./aboutme-cn.html" ><img src="../Public/img/AboutMe-cn.svg" alt="About Me" id="aboutme-cn"></a>
-				<a href="./upcoming-cn.html"><img src="../Public/img/title-upcoming-cn2.svg" alt="Up coming" id="indexcontent-cn"></a>
+		<!-- portfolio list -->
+		<!-- VR reading project -->
+		<div style="display: inline-block;" class="project-sec">
+			<div class="left">
+				<img style="max-width: 50%;" src="../Public/img/giantisland.png">
+			</div>
+			<div class="right" style="margin: 2em 0em 0em 2em;">
+				<h2>
+					<a style="font-size: 2em;" href="./index-cn.html">书岛</a>
+					<p id="subtitle" style="font-size: 0.5em;">2018.07 - 2018.11,  墨尔本</p>
+					<p style="font-size: 0.75em;">虚拟现实阅读界面的设计实现和测试</p>	
+				</h2>
+			</div>
 		</div>
+
+		<!-- SortingShop -->
+			<div style="display: inline-block;" class="project-sec">
+				<div class="left">
+					<img style="max-width: 75%;" src="../Public/img/sortingshop.png">
+				</div>
+				<div class="right" style="margin: 5em 0em 0em 2em;">
+					<h2>
+						<a style="font-size: 2em;" href="./index-cn.html">泉涌类</a>
+						<p id="subtitle" style="font-size: 0.5em;">2018.07 - 2018.11,  墨尔本</p>
+						<p style="font-size: 0.75em;">用户调查研究社交应用的界面设计</p>	
+					</h2>
+				</div>
+			</div>
+
+			<!-- SparkPeople -->
+			<div style="display: inline-block;" class="project-sec">
+				<div class="left">
+					<img style="max-width: 40%;" src="../Public/img/sparkpeople.png">
+				</div>
+				<div class="right" style="margin: 2em 0em 0em 2em;">
+					<h2>
+						基于<a href="https://www.sparkpeople.com">SparkPeople</a>的用户体验评估</a>
+						<p id="subtitle" style="font-size: 0.5em;">April 2018 - June 2018,  Melbourne</p>
+						<p style="font-size: 0.75em;">评估使用了眼球追踪技术以及用户访谈</p>	
+					</h2>
+				</div>
+			</div>
+
 	</div>
 
 </body>
