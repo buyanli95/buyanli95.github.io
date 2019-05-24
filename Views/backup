@@ -1,0 +1,20 @@
+//giant island
+<p>The project has designed and implemented a reading interface in the virtual environment, which is meant to be different from traditional paper reading and digital reading.</p> 
+					<p>It is an immersive environment with a panoramic visual environment, sound effects, and haptic feedback. The VR reading environment is built on the PC platform and has used the Oculus Rift for VR implementation.</p>
+					<p>After the initial platform was built, we conducted a user study with 12 participants and used these test results to evaluate reading experience with regard to targeted parameters, key findings from which have been used to determine usability flaws and has shown that people are interested in this novel way of reading. Therefore we believe the VR reading is a promising end that deserves to be explored furthermore.</p>
+
+//sortingshop
+<p>The project is meant to design and prototype a collaborative and collocated crowdsourcing platform interface that allows people to complete tasks in groups.</p>
+					<p>We were inspired by the <a href="https://en.wikipedia.org/wiki/Affinity_diagram">Affinity Diagramming</a> that is used in analysing users' requirements and usually was conducted by a group of people with post-it notes.</p>
+					<p>So we'd like to make it paperless, environment-friendly and remote-available, which is SortingShop, a platform that allows users to brainstorm and categorise their ideas. It is a crowdsourcing tool that based on a specific topic that came up by our users. The platform gathers idea from them, generates a user-friendly categorising result that can be used for further discussion.</p>
+					<p>The uniqueness of SortingShop is that it impartially considers different categorisation methodology from different users, and collects cross-categorised and uncategorised ideas that should be discussed furtherly so that every idea will be considered.</p>
+
+
+//ux usability test
+<p>This project has planned and conducted an user-based usability evaluation of Sparkpeople website with overall 14 participants, including 4 tests in the <a href="https://cis.unimelb.edu.au/research/groups/interaction-design/">Interaction Design Lab</a>(with eye-tracking devices) and 10 tests in a normal project room.</p>
+					<p>This study aims to evaluate the key functions of the SparkPeople website to identify usability flaws. These key functions aim to help their members track their health and to lose weight.</p>
+					<p>In addition to evaluating the usability of each of these functions, the study focuses on first-time visitors to SparkPeople and their likelihood of returning to the website. A range of qualitative and quantitative measures was included in the study such as error and success rate, time to complete the tasks, number of clicks and screens visited, participant comments and user ranking.</p>
+
+//eos
+<p>EOS is a web application that has been built to help the current generations to be better prepared for future careers in their tertiary level of education, improving mutual understanding between employers and their future employees.</p>
+					<p>By using HCI processes design methods, this project has designed and developed a full-stack web application to address an <a href="https://challenges.openideo.com/challenge">openIDEO challenge</a>: “How might we better prepare all learners for the need of tomorrow by reimagining higher education”.</p>

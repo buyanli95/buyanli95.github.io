@@ -11,7 +11,8 @@
 	<!-- <link rel="stylesheet" type="text/css" href="./Public/css/indexStyle.css"> -->
 	<style type="text/css">
 		body {
-			background-image: url("./Public/img/img-background.svg");
+			/*background-image: url("./Public/img/img-background.svg");*/
+			background-color: #f4f4f4;
 		}
 	</style>
 </head>
@@ -24,20 +25,66 @@
 			<div class="logo">
 				<a href="./index.html"><p>Buyan Li</p></a>
 			</div>
-			<!-- language selector -->
-			<div class="language">
-				<p><a href="./index.html">EN</a> / <a href="./Views/index-cn.html">中</a></p>
+			<div class="rightBar">
+				<div class="project">
+					<p><a href="./index.html">Project</a></p>
+				</div>
+				<div class="about">
+					<p><a href="./Views/aboutme.html">About</a></p>
+				</div>
+				<!-- language selector -->
+				<div class="language">
+					<p><a href="./index.html">EN</a> / <a href="./Views/index-cn.html">中</a></p>
+				</div>
 			</div>
 		</div>
 		<!-- seperator line -->
-		<hr class="seperator 100%">
+		<!-- <hr class="seperator 100%"> -->
 
-		<!-- key content -->
-		<div class="index">
-				<!-- introduction -->
-				<a href="./Views/projects.html"><img src="./Public/img/title-projects2.svg" alt="Projects" id="indexcontent"></a>
-				<a href="./Views/aboutme.html" ><img src="./Public/img/aboutme-circle.svg" alt="About Me" id="aboutme"></a>
-				<a href="./Views/upcoming.html"><img src="./Public/img/title-upcoming2.svg" alt="Up coming" id="indexcontent"></a>
+		<div class="projects">
+
+			<!-- VR reading project -->
+			<div style="display: inline-block;" class="project-sec">
+				<div class="left">
+					<img style="max-width: 50%;" src="./Public/img/giantisland-removebg.svg">
+				</div>
+				<div class="right" style="margin: 2em 0em 0em 2em;">
+					<h2>
+						<a style="font-size: 2em;" href="./Views/vrread.html">Giant Island</a>
+						<p id="subtitle" style="font-size: 0.5em;">July 2018 - November 2018,  Melbourne</p>
+						<p style="font-size: 0.75em;">Reading Experience in Virtual Reality</p>	
+					</h2>
+				</div>
+			</div>
+
+			<!-- SortingShop -->
+			<div style="display: inline-block;" class="project-sec">
+				<div class="left">
+					<img style="max-width: 75%;" src="./Public/img/sortingshop.png">
+				</div>
+				<div class="right" style="margin: 5em 0em 0em 2em;">
+					<h2>
+						<a style="font-size: 2em;" href="./Views/sortingshop.html">SortingShop</a>
+						<p id="subtitle" style="font-size: 0.5em;">July 2018 - November 2018,  Melbourne</p>
+						<p style="font-size: 0.75em;">Social Computing App Interface Design and Usability Evaluation</p>	
+					</h2>
+				</div>
+			</div>
+
+			<!-- SparkPeople -->
+			<div style="display: inline-block;" class="project-sec">
+				<div class="left">
+					<img style="max-width: 50%;" src="./Public/img/sparkpeople.png">
+				</div>
+				<div class="right" style="margin: 2em 0em 0em 2em;">
+					<h2>
+						<a style="font-size: 2em;" href="./Views/SparkPeople.html">Usability Evaluation for <a href="https://www.sparkpeople.com">SparkPeople</a>
+						<p id="subtitle" style="font-size: 0.5em;">April 2018 - June 2018,  Melbourne</p>
+						<p style="font-size: 0.75em;">with eye-tracking techniques and interviews</p>	
+					</h2>
+				</div>
+			</div>
+
 		</div>
 	</div>
 

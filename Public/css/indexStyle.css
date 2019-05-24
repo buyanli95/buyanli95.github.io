@@ -13,12 +13,11 @@ body{
     background-size: 100% 120%;
     background-repeat: no-repeat;
     padding: 1em 1em;
+    text-align: center;
 }
 
 .container{
     position: relative;
-    text-align: center;
-    /*background-color: #fafafa;*/
     padding: 10px 40px;
 }
 
@@ -26,6 +25,7 @@ body{
     max-width:100%; 
     overflow:auto;
     _display: inline-block;
+    font-size: 1.2em;
 }
 a{
     text-decoration: none;
@@ -41,15 +41,39 @@ a{
 .logo p{
     color: rgba(66, 66, 66, 0.6);
     font-weight: 300;
-    font-size: 1.2em;
+    
 }
-
-.language {
+.rightBar{
     float: right;
+    display: flex;
 }
-.language a {
+.rightBar a{
     color: rgba(66, 66, 66, 0.6);
 }
+.project{
+    padding-right: 1em;
+}
+.project a{
+    border-bottom: 0.1em solid rgba(66, 66, 66, 6);
+    padding-bottom: 0.1em;
+}
+.about{
+    padding-right: 1em;
+}
+.about a:hover{
+    border-bottom: 0.1em solid rgba(66, 66, 66, 6);
+    padding-bottom: 0.1em;
+}
+.language {
+    padding-right: 1em;
+    position: relative;
+    top: -0.25em;
+}
+.language a:hover{
+    border-bottom: 0.1em solid rgba(66, 66, 66, 6);
+    padding-bottom: 0.1em;
+}
+
 
 .seperator{
     color: #979797;
@@ -129,7 +153,7 @@ p, li {
     padding: 10px 0px;
 }
 /*about me social media*/
-.socialmedia{
+/*.socialmedia{
     font-family: 'Comfortaa', cursive;
     color: rgba(66, 66, 66, 0.64);
     font-weight: 10;
@@ -148,7 +172,7 @@ p, li {
 }
 .socialmedia img:hover{
     transform: scale(1.2);
-}
+}*/
 
 
 /*projects*/
@@ -177,11 +201,12 @@ p, li {
 }
 
 .project-sec {
-    background-color: rgba(245, 245, 245, 0.5);
-    border-radius: 5%;
-    max-width: 90%;
+    /*background-color: rgba(245, 245, 245, 0.7);*/
+    background-color: #ffffff;
+    border-radius: 2%;
+    max-width: 95%;
     margin:0 auto; 
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     padding: 4em;
     overflow:auto; 
     _display:inline-block;
@@ -191,18 +216,24 @@ p, li {
     float: left;
 }
 .project-sec .right {
-    margin-left: 4em;
     max-width: 50%;
     float: left;
     text-align: left;
 }
-.project-sec img {
+
+#social img {
+    max-width: 5%;
+    max-height: 5%;
+    position: relative;
+    top: 0.3em;
+    margin-left: 0.75em;
     cursor: pointer;
     transition: all 0.6s;
 }
-.project-sec img:hover{
+#social img:hover{
     transform: scale(1.2);
 }
+
 .project-sec p{
     color: #5f5f5f;
 }
