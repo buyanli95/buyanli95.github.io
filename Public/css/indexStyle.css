@@ -110,6 +110,10 @@ p, li {
     padding: 10px 0px;
 }
 
+.intro p{
+    padding-bottom: 1em;
+}
+
 /*projects*/
 .projects {
     padding: 10px;
