@@ -193,9 +193,9 @@ a{
 }
 .project-sec li{
     text-align: left; 
-    position: relative; 
+    position: relative;
     left: 42.5%; 
-    max-width: 20%;
+    max-width: 100%;
 }
 
 /*up coming*/

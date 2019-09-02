@@ -182,8 +182,8 @@ p {
 .project-sec li{
     text-align: left; 
     position: relative; 
-    left: 42.5%; 
-    max-width: 20%;
+    left: 30%;
+    max-width: 100%;
 }
 
 .project-sec .left {
