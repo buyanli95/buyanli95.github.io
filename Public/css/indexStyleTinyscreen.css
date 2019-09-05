@@ -7,12 +7,13 @@ html{
 }
 
 body{
-    background-color: #f1f1f1;
+    background-color: #f4f4f4;
     /*background-image: url("profile-img.svg");*/
     background-position: fixed;
     background-size: 120% 120%;
     background-repeat: no-repeat;
     padding: 0.25em 0.25em;
+
 }
 .container{
     position: relative;
@@ -103,7 +104,7 @@ a{
     font-size: 0.9em;
 }
 /*about me social media*/
-.socialmedia{
+/*.socialmedia{
     font-family: 'Comfortaa', cursive;
     color: rgba(66, 66, 66, 0.64);
     font-weight: 10;
@@ -121,11 +122,15 @@ a{
 }
 .socialmedia img:hover{
     transform: scale(1.2);
-}
+}*/
 
 /*projects*/
 .projects {
     padding: 0.25em;
+}
+.projects p{
+    max-width: 100%;
+    text-align: left;
 }
 .projects h1 {
     text-align: left;
@@ -147,9 +152,10 @@ a{
 }
 
 .project-sec {
+    background-color: #fcfcfc;
     max-width: 100%;
     margin:0 auto; 
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     overflow:auto; 
 }
 .project-sec .left {
@@ -161,6 +167,13 @@ a{
     float: left;
     text-align: left;
 }
+.project-sec .right h2{
+    font-size: 1.25em;
+}
+.project-sec p{
+    max-width: 100%;
+}
+
 .video{
     position: relative;
     overflow: hidden;
@@ -194,8 +207,12 @@ a{
 .project-sec li{
     text-align: left; 
     position: relative;
-    left: 42.5%; 
+    left: 30%; 
     max-width: 100%;
+}
+/*sortingshop img*/
+#ssImg img{
+    max-width: 70%;
 }
 
 /*up coming*/

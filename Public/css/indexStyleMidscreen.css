@@ -7,7 +7,7 @@ html{
 }
 
 body{
-    /*background-color: #f1f1f1;*/
+    background-color: #f4f4f4;
     background-image: url("img-background.svg");
     background-position: left, top;
     background-size: 100% 95%;
@@ -118,22 +118,11 @@ p {
     margin:0 auto; 
     padding: 0.5em 0em;
 }
-/*about me social media*/
-/*.socialmedia{
-    font-family: 'Comfortaa', cursive;
-    color: rgba(66, 66, 66, 0.64);
-    font-weight: 10;
-    max-width: 100%;
-    margin:0 auto; 
-    overflow:auto; 
-    _display:inline-block;
-    padding: 1em;
-}*/
-/*#social img{
-    max-width: 10%;
-    max-height: 10%;
-    padding: 1em;
-}*/
+#social {
+    background-color: #f4f4f4;
+    position: relative;
+    left: 30%;
+}
 #social img {
     max-width: 15%;
     max-height: 15%;
@@ -152,8 +141,12 @@ p {
     padding: 10px;
     margin-bottom: 50px;
 }
-
+.projects p{
+    max-width: 100%;
+    text-align: left;
+}
 .projects h1 {
+    font-size: 3em;
     text-align: left;
     color: #FFA6A6;
 }
@@ -173,6 +166,7 @@ p {
 }
 
 .project-sec {
+    background-color: #fcfcfc;
     max-width: 100%;
     margin:0 auto; 
     margin-bottom: 5em;
@@ -182,14 +176,16 @@ p {
 .project-sec li{
     text-align: left; 
     position: relative; 
-    left: 30%;
+    left: 40%;
     max-width: 100%;
+    margin-bottom: 2em;
 }
 
 .project-sec .left {
-    max-width: 40%;
+    max-width: 30%;
     min-width: 15%;
     float: left;
+    margin: 2em 0em 0em 1em;
 }
 .project-sec .right {
     margin-left: 2.5em;
@@ -198,6 +194,19 @@ p {
     float: left;
     text-align: left;
 }
+.project-sec .right h2{
+    font-size: 1.5em;
+}
+.project-sec .right p{
+    max-width: 100%;
+}
+/*sortingshop img*/
+#ssImg img{
+    max-width: 30%; 
+    border: 1px solid; 
+    border-color: rgba(0,0,0,0.1);
+}
+
 .video{
     position: relative;
     overflow: hidden;

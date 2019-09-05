@@ -9,11 +9,6 @@
 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 200px) and (max-device-width: 601px)" href="./Public/css/indexStyleTinyscreen.css" />
 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 600px) and (max-device-width: 1025px)" href="./Public/css/indexStyleMidscreen.css" />
 	<!-- <link rel="stylesheet" type="text/css" href="./Public/css/indexStyle.css"> -->
-	<style type="text/css">
-		body {
-			background-color: #f4f4f4;
-		}
-	</style>
 </head>
 
 <body>
@@ -42,7 +37,7 @@
 				<div class="left">
 					<img style="max-width: 60%; " src="./Public/img/hybrid-chess.png">
 				</div>
-				<div class="right" style="margin: 2em 0em 0em 2em; float: left;">
+				<div class="right" style="margin: 2em 0em 2em 2em; float: left;">
 					<h2>
 						<a style="font-size: 1.75em;" href="https://www.youtube.com/watch?v=oa9_Hf_1OTU">Hybrid Chess</a>
 						<p id="subtitle" style="font-size: 0.5em; position: relative; top: 0.5em;">Feb 2019 - June 2019,  Melbourne</p>
@@ -57,7 +52,7 @@
 				<div class="left">
 					<img style="max-width: 75%;" src="./Public/img/sortingshop.png">
 				</div>
-				<div class="right" style="margin: 5em 0em 0em 2em; float: left;">
+				<div class="right" style="margin: 3em 0em 0em 2em; float: left;">
 					<h2>
 						<a style="font-size: 1.75em;" href="./Views/sortingshop.html">SortingShop</a>
 						<p id="subtitle" style="font-size: 0.5em; position: relative; top: 0.5em;">July 2018 - November 2018,  Melbourne</p>
@@ -114,6 +109,21 @@
 
 		</div>
 	</div>
+
+	<script type="text/javascript">
+		window.onscroll = function() {myFunction()};
+
+		var header = document.getElementById("topbar");
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+  			if (window.pageYOffset > sticky) {
+    		header.classList.add("sticky");
+  			} else {
+    		header.classList.remove("sticky");
+  			}
+		}
+	</script>
 
 </body>
 </html>

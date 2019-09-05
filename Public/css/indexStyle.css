@@ -9,6 +9,7 @@ html{
 body{
     padding: 1em 1em;
     text-align: center;
+    background-color: #f4f4f4;
 }
 
 .container{
@@ -22,6 +23,13 @@ body{
     padding: 1em;
     _display: inline-block;
     font-size: 1.25em;
+    background: #f4f4f4;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 88%
 }
 
 a{
@@ -120,7 +128,10 @@ p, li {
     padding: 10px;
     margin-bottom: 50px;
 }
-
+.projects p{
+    max-width: 75%;
+    text-align: left;
+}
 .projects h1 {
     text-align: left;
     color: #FFA6A6;
@@ -132,7 +143,7 @@ p, li {
     font-family: 'Comfortaa', cursive;
     color: rgba(66, 66, 66, 0.7);
     font-size: 0.4em; 
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 #subpara {
     font-size: 0.75em;
@@ -141,8 +152,7 @@ p, li {
 }
 
 .project-sec {
-    /*background-color: rgba(245, 245, 245, 0.7);*/
-    background-color: #ffffff;
+    background-color: #fcfcfc;
     border-radius: 2%;
     max-width: 95%;
     margin:0 auto; 
@@ -162,6 +172,13 @@ p, li {
     float: right;
     text-align: left;
 }
+/*sortingshop img*/
+#ssImg img{
+    max-width: 20%; 
+    border: 1px solid; 
+    border-color: rgba(0,0,0,0.1);
+}
+
 .video{
     position: relative;
     overflow: hidden;
@@ -176,9 +193,19 @@ p, li {
     border: 0;
 }
 
+#social {
+    /*background-color: #f4f4f4;*/
+    width: 100%;
+    text-align: center; 
+    padding: 0px; 
+    margin: 0px; 
+    position: relative; 
+    top: -2em;
+    left: 40%;
+}
 #social img {
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 20%;
+    max-height: 20%;
     position: relative;
     top: 0.3em;
     margin-left: 0.75em;
@@ -211,20 +238,5 @@ p, li {
     position: relative;
     left: 0%;
     max-width: 100%;
-}
-
-/*up coming*/
-.upcoming {
-    text-align: left;
-    font-family: 'Comfortaa', cursive;
-    padding: 3em;
-}
-.upcoming h1{
-    color: rgba(101,85,255,0.63);
-}
-.upcoming li {
-    font-size: 1.3em; 
-    padding: 1em;
-    color: rgba(66, 66, 66, 0.64);
 }
 
