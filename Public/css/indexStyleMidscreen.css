@@ -6,6 +6,18 @@ html{
     overflow-x: hidden;
 }
 
+.profile-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.avatar {
+    position: relative;
+    left: 10%;
+    vertical-align: middle;
+    max-width: 75%;
+    border-radius: 10%;
+}
+
 body{
     background-color: #f4f4f4;
     background-image: url("img-background.svg");

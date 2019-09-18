@@ -6,6 +6,13 @@ html{
     overflow-x: hidden;
 }
 
+.avatar {
+    position: relative;
+    vertical-align: middle;
+    max-width: 100%;
+    border-radius: 10%;
+}
+
 body{
     background-color: #f4f4f4;
     /*background-image: url("profile-img.svg");*/
