@@ -1,6 +1,10 @@
 body {
+<<<<<<< HEAD
     /* test message */
-    background-color: #745932;
+    /* background-color: #745932; */
+=======
+    background-color: #ffffff;
+>>>>>>> 8f6e83cbeffd1dafdb66263e09fafeca14d85184
   }
   
   .container {
